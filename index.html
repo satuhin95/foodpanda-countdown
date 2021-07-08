@@ -1,0 +1,41 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="ad.size" content="width=300,height=250">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Countdown Banner by purplePatch</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <a href="{CLICK_MACRO}" target="_blank">
+        <div class="pp_wrapper">
+            <div class="patch_box absolute">
+                <div class="patch_countdown absolute"></div>
+                <div class="patch_title absolute"></div>
+            </div>
+            <div class="slide_1 slide absolute hidden">
+                <div class="elements_1 absolute"><img src="text.png" alt=""></div>
+                <div class="elements_2 absolute"><img src="logo.png" alt=""></div>
+            </div>
+            <div class="slide_2 slide absolute hidden">
+                <div class="elements_1 absolute"><img src="fulllogo.png" alt=""></div>
+                <div class="elements_2 absolute pulse"><img src="button.png" alt=""></div>
+            </div>
+            <div class="slide_general absolute">
+                <img src="bg.png">
+            </div>
+        </div>
+    </a>
+
+    <script type="text/javascript" src="animation.js"></script>
+    <script type="text/javascript"> 
+        /* 
+            * Sports value will countrius name, it's needed to get country flag and start countdown
+        */
+        countdown_runner( sports['italy-vs-england']); 
+    </script>
+</body>
+</html>
